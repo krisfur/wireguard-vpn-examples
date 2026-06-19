@@ -1,0 +1,14 @@
+# WireGuard configs (contain private keys)
+*.conf
+
+# Go build output
+0-Go/wgclient
+
+# Zig build output
+1-Zig/main
+1-Zig/main.o
+.zig-cache/
+zig-out/
+
+# macOS
+.DS_Store
