@@ -105,6 +105,7 @@ authenticate against a real server - it's there to show the bytes, not connect.
 | Term | Meaning |
 | --- | --- |
 | **VPN** | Virtual Private Network - an encrypted tunnel carrying your traffic. |
+| **NIC** | Network Interface Card - the hardware (or its driver) that connects a machine to a network, e.g. your Wi-Fi or Ethernet adapter. |
 | **TUN** | A virtual network interface the OS treats like a real one; packets sent to it are handed to a userspace program instead of a wire. |
 | **MTU** | Maximum Transmission Unit - the largest packet size an interface will send. |
 | **CIDR** | Address-range notation like `10.0.0.0/24`; the `/N` is how many leading bits are the network part. |
